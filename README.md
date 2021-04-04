@@ -1,4 +1,5 @@
-# zshrc
-**My Configuration of zshrc for oh-my-zsh**
+# My config files for linux
+**My Configuration as a Linux User**
 
-Take a look -> Understand what means -> Copy to your folder
+Take a look -> Understand what means -> Copy what you want to your folder
+
