@@ -1,10 +1,4 @@
-# My config files for Linux
-
-**My Configuration as a Linux User**
-
-Take a look -> Understand what means -> Copy what you want to your folder
-
-### ranger
+## ranger
 
 Compress and extract archives: <br>
 `:compress` `:extracthere` depends on atool
