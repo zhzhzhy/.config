@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 # enable zsh-vi-mode
 bindkey -v
+
+# load ranger setting default
+export RANGER_LOAD_DEFAULT_RC=true
