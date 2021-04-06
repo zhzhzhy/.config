@@ -4,6 +4,22 @@
 
 Take a look -> Understand what means -> Copy what you want to your folder
 
+### zsh
+
+**Install `zsh` `curl` `git` first**
+```bash
+sudo apt-get install zsh curl git
+```
+
+Then execute 
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+OR
+```bash
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+
 ### ranger
 
 Compress and extract archives: <br>
