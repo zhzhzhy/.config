@@ -6,7 +6,7 @@ Take a look -> Understand what means -> Copy what you want to your folder
 
 ### zsh
 
-**Install `zsh` `curl` `git` first**
+- **Install `zsh` `curl` `git` first**
 
 *Ubuntu/Debian*
 ```bash
@@ -17,7 +17,8 @@ sudo apt-get install zsh curl git
 sudo pacman -S zsh curl git
 ```
 
-Then execute 
+- Install oh-my-zsh
+
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
