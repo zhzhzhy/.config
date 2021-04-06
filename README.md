@@ -7,8 +7,14 @@ Take a look -> Understand what means -> Copy what you want to your folder
 ### zsh
 
 **Install `zsh` `curl` `git` first**
+
+*Ubuntu/Debian*
 ```bash
 sudo apt-get install zsh curl git
+```
+*Arch Linux*
+```bash
+sudo pacman -S zsh curl git
 ```
 
 Then execute 
@@ -27,13 +33,13 @@ Compress and extract archives: <br>
 
 **Atool installation**
 
-Arch Linux:
+*Arch Linux*:
 
 ```bash
 sudo pacman -S atool
 ```
 
-Ubuntu:
+*Ubuntu*:
 
 ```bash
 sudo apt install atool
