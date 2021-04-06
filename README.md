@@ -29,7 +29,7 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 
 ### ranger
 
-Compress and extract archives: <br>
+-Compress and extract archives: <br>
 `:compress` `:extracthere` depends on atool
 
 **Atool installation**
