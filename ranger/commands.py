@@ -1,7 +1,24 @@
-from ranger.api.commands import Command
+# Please refer to commands_full.py for all the default commands and a complete
+# documentation.  Do NOT add them all here, or you may end up with defunct
+# commands when upgrading ranger.
+
+# A simple command for demonstration purposes follows.
+# -----------------------------------------------------------------------------
+
+# You can import any python module as needed.
 import os
+# You always need to import ranger.api.commands here to get the Command class:
+from ranger.api.commands import Command
 from ranger.core.loader import CommandLoader
 
+
+    # The tab method is called when you press tab, and should return a list of
+    # suggestions that the user will tab through.
+    # tabnum is 1 for <TAB> and -1 for <S-TAB> by default
+def tab(self, tabnum):
+        # This is a generic tab-completion function that iterates through the
+        # content of the current directory.
+        return self._tab_directory_content()
 
 class paste_as_root(Command):
     def execute(self):
