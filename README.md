@@ -27,6 +27,15 @@ OR
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
+- Copy files under `zsh` OR `zsh-Termux` to `~/.config/zsh/`
+```bash
+cp ./zsh/* ~/.config/zsh/
+```
+- Copy `.zshrc` to `$HOME`
+```bash
+cp ./zsh/.zshrc $HOME/
+```
+
 ### ranger
 
 - Compress and extract archives: <br>
