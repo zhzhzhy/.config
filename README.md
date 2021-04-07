@@ -4,7 +4,7 @@
 
 Take a look -> Understand what means -> Copy what you want to your folder
 
-### zsh
+## zsh
 
 - **Install `zsh` `curl` `git` first**
 
@@ -41,7 +41,7 @@ cp ./zsh/* $HOME/.config/zsh/
 cp ./zsh/.zshrc $HOME/
 ```
 
-### ranger
+## ranger
 
 - Compress and extract archives: <br>
 `:compress` `:extracthere` depends on atool
@@ -59,10 +59,9 @@ sudo pacman -S atool
 ```bash
 sudo apt install atool
 ```
-### fzf<br>
+## fzf
 
 **fzf is a general-purpose command-line fuzzy finder**
-------------
 
 - **fzf Installation**
 
