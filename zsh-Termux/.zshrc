@@ -12,3 +12,6 @@ source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/plugins.zsh
 source ~/.config/zsh/vi.zsh
 source ~/.config/zsh/others.zsh
+
+# Init zsh-autopair plugin
+autopair-init

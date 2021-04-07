@@ -11,5 +11,4 @@ if [[ ! -d ~/.zsh-autopair ]]; then
 fi
 
 source ~/.zsh-autopair/autopair.zsh
-autopair-init
 
