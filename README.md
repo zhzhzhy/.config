@@ -26,6 +26,11 @@ OR
 ```bash
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+- git clone this project & cd
+```bash
+git clone https://github.com/zhzhzhy/.config
+cd .config
+```
 
 - Copy files under `zsh` OR `zsh-Termux` to `$HOME/.config/zsh/`
 ```bash
