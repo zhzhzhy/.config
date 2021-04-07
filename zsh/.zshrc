@@ -104,4 +104,4 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 
 # load ranger setting default
-export RANGER_LOAD_DEFAULT_RC=true
+export RANGER_LOAD_DEFAULT_RC=false
