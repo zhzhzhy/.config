@@ -7,3 +7,4 @@ export ZSH="$HOME/.oh-my-zsh"
 # load ranger setting default
 export RANGER_LOAD_DEFAULT_RC=false
 
+export SHELL=zsh
