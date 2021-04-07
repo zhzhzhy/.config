@@ -105,3 +105,10 @@ bindkey -v
 
 # load ranger setting default
 export RANGER_LOAD_DEFAULT_RC=false
+
+### alias
+alias ra='ranger'
+alias ta='tmux a'
+alias t='tmux'
+alias gs='git config credential.helper store'
+alias gc='git clone'
