@@ -27,9 +27,9 @@ OR
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-- Copy files under `zsh` OR `zsh-Termux` to `~/.config/zsh/`
+- Copy files under `zsh` OR `zsh-Termux` to `$HOME/.config/zsh/`
 ```bash
-cp ./zsh/* ~/.config/zsh/
+cp ./zsh/* $HOME/.config/zsh/
 ```
 - Copy `.zshrc` to `$HOME`
 ```bash
