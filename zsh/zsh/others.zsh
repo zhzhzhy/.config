@@ -1,7 +1,3 @@
-# Init ssh-agent & add github private-key
-eval `ssh-agent -s`
-ssh-add ~/.ssh/git
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
