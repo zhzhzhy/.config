@@ -53,6 +53,7 @@ cp -i -R ./zsh $HOME/.config/
 cp -i $HOME/.config/zsh/.zshrc $HOME/
 ```
 ### zsh alias
+```bash
 alias ra='ranger'
 alias ta='tmux a'
 alias t='tmux'
@@ -72,6 +73,7 @@ alias gr='git remote'
 alias ex='exit'
 alias l='ls -al'
 alias sudo='sudo -E'
+```
 
 ## ranger
 
