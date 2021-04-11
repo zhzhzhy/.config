@@ -6,6 +6,8 @@ Take a look -> Understand what means -> Copy what you want to your folder
 
 ## zsh
 
+### Installation
+
 - **Install `zsh` `curl` `git` first**
 
 _Ubuntu/Debian_
@@ -31,7 +33,7 @@ OR
 ```bash
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
-
+### Configure zsh
 - git clone this project & cd
 
 ```bash
@@ -50,6 +52,26 @@ cp -i -R ./zsh $HOME/.config/
 ```bash
 cp -i $HOME/.config/zsh/.zshrc $HOME/
 ```
+### zsh alias
+alias ra='ranger'
+alias ta='tmux a'
+alias t='tmux'
+alias gs='git config credential.helper store'
+alias gcl='git clone'
+alias gsh='git push'
+alias gll='git pull'
+alias gad='git add .'
+alias gco='git commit -m'
+alias gst='git status'
+alias gbr='git branch'
+alias gch='git checkout'
+alias gl='git log --graph'
+alias glo='git log --graph --oneline'
+alias glod='git log --graph --oneline --decorate'
+alias gr='git remote'
+alias ex='exit'
+alias l='ls -al'
+alias sudo='sudo -E'
 
 ## ranger
 
@@ -65,7 +87,7 @@ cp -i -R ./ranger $HOME/.config/
 - Compress and extract archives: <br>
   `:compress` `:extracthere` depends on atool
 
-**Atool installation**
+  **Atool installation**
 
 _Arch Linux_:
 
