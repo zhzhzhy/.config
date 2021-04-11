@@ -43,6 +43,9 @@ cp ./zsh/.zshrc $HOME/
 
 ## ranger
 
+- Available addtional commands:
+   `:paste_as_root` `:toggleVCS` `:mkcd` `:fzf_select` `:compress` `:extracthere`
+
 - Compress and extract archives: <br>
 `:compress` `:extracthere` depends on atool
 
