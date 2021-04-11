@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#!/data/data/com.termux/files/usr/bin/env bash
 
 set -o noclobber -o noglob -o nounset -o pipefail
 IFS=$'\n'
