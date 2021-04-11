@@ -8,11 +8,14 @@ Take a look -> Understand what means -> Copy what you want to your folder
 
 - **Install `zsh` `curl` `git` first**
 
-*Ubuntu/Debian*
+_Ubuntu/Debian_
+
 ```bash
 sudo apt-get install zsh curl git
 ```
-*Arch Linux*
+
+_Arch Linux_
+
 ```bash
 sudo pacman -S zsh curl git
 ```
@@ -22,23 +25,30 @@ sudo pacman -S zsh curl git
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
 OR
+
 ```bash
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+
 - git clone this project & cd
+
 ```bash
 git clone https://github.com/zhzhzhy/.config
 cd .config
 ```
 
 - Copy files under `zsh` OR `zsh-Termux` to `$HOME/.config/zsh/`
+
 ```bash
-cp ./zsh/* $HOME/.config/zsh/
+cp -i -R ./zsh $HOME/.config/
 ```
+
 - Copy `.zshrc` to `$HOME`
+
 ```bash
-cp ./zsh/.zshrc $HOME/
+cp -i $HOME/.config/zsh/.zshrc $HOME/
 ```
 
 ## ranger
@@ -46,22 +56,29 @@ cp ./zsh/.zshrc $HOME/
 - Available addtional commands:
    `:paste_as_root` `:toggleVCS` `:mkcd` `:fzf_select` `:compress` `:extracthere`
 
+- Copy ranger config files into $HOME/.config/ranger
+
+```bash
+cp -i -R ./ranger $HOME/.config/
+```
+
 - Compress and extract archives: <br>
-`:compress` `:extracthere` depends on atool
+  `:compress` `:extracthere` depends on atool
 
 **Atool installation**
 
-*Arch Linux*:
+_Arch Linux_:
 
 ```bash
 sudo pacman -S atool
 ```
 
-*Ubuntu*:
+_Ubuntu_:
 
 ```bash
 sudo apt install atool
 ```
+
 ## fzf
 
 **fzf is a general-purpose command-line fuzzy finder**
@@ -73,8 +90,8 @@ fzf project consists of the following components:
 - `fzf` executable
 - `fzf-tmux` script for launching fzf in a tmux pane
 - Shell extensions
-    - Key bindings (`CTRL-T`, `CTRL-R`, and `ALT-C`) (bash, zsh, fish)
-    - Fuzzy auto-completion (bash, zsh)
+  - Key bindings (`CTRL-T`, `CTRL-R`, and `ALT-C`) (bash, zsh, fish)
+  - Fuzzy auto-completion (bash, zsh)
 - Vim/Neovim plugin
 
 You can [download fzf executable][bin] alone if you don't need the extra
@@ -111,7 +128,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ### Using Linux package managers
 
 | Package Manager | Linux Distribution      | Command                            |
-| ---             | ---                     | ---                                |
+| --------------- | ----------------------- | ---------------------------------- |
 | APK             | Alpine Linux            | `sudo apk add fzf`                 |
 | APT             | Debian 9+/Ubuntu 19.10+ | `sudo apt-get install fzf`         |
 | Conda           |                         | `conda install -c conda-forge fzf` |
