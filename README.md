@@ -4,6 +4,20 @@
 
 Take a look -> Understand what means -> Copy what you want to your folder
 
+<!-- vim-markdown-toc GFM -->
+
+* [zsh](#zsh)
+	* [Installation](#installation)
+	* [Configure zsh](#configure-zsh)
+	* [zsh alias](#zsh-alias)
+* [ranger](#ranger)
+* [fzf](#fzf)
+	* [Using Homebrew](#using-homebrew)
+	* [Using git](#using-git)
+	* [Using Linux package managers](#using-linux-package-managers)
+
+<!-- vim-markdown-toc -->
+
 ## zsh
 
 ### Installation
