@@ -8,3 +8,6 @@ export ZSH="$HOME/.oh-my-zsh"
 export RANGER_LOAD_DEFAULT_RC=false
 
 export SHELL=zsh
+
+# Default editor neovim
+# export EDITOR="nvim"

@@ -7,3 +7,5 @@ export ZSH="$HOME/.oh-my-zsh"
 # load ranger setting default
 export RANGER_LOAD_DEFAULT_RC=false
 
+# Default editor neovim
+# export EDITOR="nvim"
