@@ -15,6 +15,9 @@ Take a look -> Understand what means -> Copy what you want to your folder
 	* [Using Homebrew](#using-homebrew)
 	* [Using git](#using-git)
 	* [Using Linux package managers](#using-linux-package-managers)
+* [zsh-syntax-highlighting](#zsh-syntax-highlighting)
+	* [Installation Guide](#installation-guide)
+* [incr.zsh](#incrzsh)
 
 <!-- vim-markdown-toc -->
 
@@ -47,7 +50,9 @@ OR
 ```bash
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+
 ### Configure zsh
+
 - git clone this project & cd
 
 ```bash
@@ -66,7 +71,9 @@ cp -i -R ./zsh $HOME/.config/
 ```bash
 cp -i $HOME/.config/zsh/.zshrc $HOME/
 ```
+
 ### zsh alias
+
 ```bash
 alias ra='ranger'
 alias ta='tmux a'
@@ -96,7 +103,7 @@ alias sudo='sudo -E'
 ## ranger
 
 - Available addtional commands:
-   `:paste_as_root` `:toggleVCS` `:mkcd` `:fzf_select` `:compress` `:extracthere`
+  `:paste_as_root` `:toggleVCS` `:mkcd` `:fzf_select` `:compress` `:extracthere`
 
 - Copy ranger config files into $HOME/.config/ranger
 
@@ -186,3 +193,37 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 > may not be enabled by default.**
 >
 > Refer to the package documentation for more information. (e.g. `apt-cache show fzf`)
+
+## zsh-syntax-highlighting
+
+see [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+Fish shell-like syntax highlighting for Zsh.
+
+Some examples:
+
+Before: [![Screenshot #1.1](images/before1-smaller.png)](images/before1.png)
+<br/>
+After:&nbsp; [![Screenshot #1.2](images/after1-smaller.png)](images/after1.png)
+
+Before: [![Screenshot #2.1](images/before2-smaller.png)](images/before2.png)
+<br/>
+After:&nbsp; [![Screenshot #2.2](images/after2-smaller.png)](images/after2.png)
+
+Before: [![Screenshot #3.1](images/before3-smaller.png)](images/before3.png)
+<br/>
+After:&nbsp; [![Screenshot #3.2](images/after3-smaller.png)](images/after3.png)
+
+Before: [![Screenshot #4.1](images/before4-smaller.png)](images/before4-smaller.png)
+<br/>
+After:&nbsp; [![Screenshot #4.2](images/after4-smaller.png)](images/after4-smaller.png)
+
+### Installation Guide
+
+see [https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+
+## incr.zsh
+
+see [https://mimosa-pudica.net/zsh-incremental.html](https://mimosa-pudica.net/zsh-incremental.html)
+
+![incr.zsh](images/incr_zsh.png)
